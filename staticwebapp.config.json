@@ -9,7 +9,7 @@
             "statusCode": 404
         },
         {
-            "route": "/login",
+            "route": "/.auth/login/twitter",
             "statusCode": 404
         }
     ]
