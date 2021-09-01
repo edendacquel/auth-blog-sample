@@ -1,7 +1,7 @@
 {
     "routes": [
         {
-            "route": "/.auth/login/aad",
+            "route": "/login",
             "rewrite": "/.auth/login/aad"
         },
         {
@@ -10,7 +10,7 @@
         },
         {
             "route": "/login",
-            "rewrite": "/.auth/login/twitter"
+            "statusCode": 404
         }
     ]
 }
