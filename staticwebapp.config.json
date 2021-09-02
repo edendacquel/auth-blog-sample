@@ -17,12 +17,17 @@
             "redirect": "/.auth/logout"
         },
         {
-            "route":"/Test/*",
+            "route":"/Test*",
             "rewrite": "/Test/test.html",
             "allowedRoles": ["reader"]
         },
         {
-            "route":"/inner/*",
+            "route":"/inner*",
+            "rewrite": "/inner.html",
+            "allowedRoles": ["reader"]
+        },
+        {
+            "route":"/inner.html",
             "rewrite": "/inner.html",
             "allowedRoles": ["reader"]
         }
