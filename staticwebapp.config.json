@@ -19,6 +19,10 @@
         {
             "route":"/Test/*",
             "allowerRoles": ["reader"]
+        },
+        {
+            "route":"/inner",
+            "allowerRoles": ["reader"]
         }
     ],
     "platformErrorOverrides": [
