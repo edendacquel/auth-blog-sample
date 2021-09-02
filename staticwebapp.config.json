@@ -18,10 +18,12 @@
         },
         {
             "route":"/Test/*",
+            "rewrite": "/Test/*",
             "allowerRoles": ["reader"]
         },
         {
             "route":"/inner",
+            "rewrite": "/inner.html",
             "allowerRoles": ["reader"]
         }
     ],
