@@ -18,11 +18,11 @@
         },
         {
             "route":"/Test/*",
-            "rewrite": "/Test/*",
+            "rewrite": "/Test/test.html",
             "allowerRoles": ["reader"]
         },
         {
-            "route":"/inner",
+            "route":"/inner/*",
             "rewrite": "/inner.html",
             "allowerRoles": ["reader"]
         }
