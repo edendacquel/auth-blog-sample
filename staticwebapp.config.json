@@ -19,12 +19,12 @@
         {
             "route":"/Test/*",
             "rewrite": "/Test/test.html",
-            "allowerRoles": ["reader"]
+            "allowedRoles": ["reader"]
         },
         {
             "route":"/inner/*",
             "rewrite": "/inner.html",
-            "allowerRoles": ["reader"]
+            "allowedRoles": ["reader"]
         }
     ],
     "platformErrorOverrides": [
