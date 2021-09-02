@@ -24,11 +24,13 @@
         {
             "route":"/inner",
             "rewrite": "/inner.html",
+            "redirect":  "/inner.html",
             "allowedRoles": ["reader"]
         },
         {
             "route":"/inner.html",
             "rewrite": "/inner.html",
+            "redirect":  "/inner.html",
             "allowedRoles": ["reader"]
         }
     ],
