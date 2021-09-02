@@ -15,6 +15,20 @@
         {
             "route": "/logout",
             "redirect": "/.auth/logout"
-          }
-    ]
+        },
+        {
+            "route":"/Test/*",
+            "allowerRoles": ["reader"]
+        }
+    ],
+    "platformErrorOverrides": [
+        {
+          "errorType": "NotFound",
+          "serve": "/custom-404.html"
+        },
+        {
+          "errorType": "Unauthenticated",
+          "serve": "/login"
+        }
+      ]
 }
