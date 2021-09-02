@@ -17,19 +17,14 @@
             "redirect": "/.auth/logout"
         },
         {
-            "route":"/Test/",
-            "rewrite": "/Test/test.html",
-            "allowedRoles": ["reader"]
-        },
-        {
             "route":"/inner/*",
             "rewrite": "/inner.html",
-            "allowedRoles": ["reader"]
+            "allowedRoles": ["reader","authenticated"]
         },
         {
             "route":"/inner.html",
             "rewrite": "/inner.html",
-            "allowedRoles": ["reader"]
+            "allowedRoles": ["reader","authenticated"]
         }
     ],
     "platformErrorOverrides": [
